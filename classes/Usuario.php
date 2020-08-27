@@ -283,7 +283,7 @@ class Usuario{
         if($resultado->execute()){
             $_SESSION['nome'] = $nome;
             $_SESSION['email'] = $email;
-            $this->listar(); 
+            $this->logar(); 
         }
             
         else{
